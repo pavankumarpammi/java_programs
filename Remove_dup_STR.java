@@ -1,7 +1,7 @@
 import java.util.*;
 class RemoveDup{
     public static void main(String args[])
-    {
+    {  //apporach 1
         System.out.println("Enter a String :");
         Scanner ob = new Scanner(System.in);
         String str = ob.nextLine();
@@ -16,5 +16,10 @@ class RemoveDup{
             }
         }
         System.out.println(sb);
+
+     //Approach 2
+     StringBuilder sb1 =new StringBuilder();
+     str.chars().distinct().forEach(c->sb1.append((char)c));
+     System.out.println(sb1);
     }
 }
