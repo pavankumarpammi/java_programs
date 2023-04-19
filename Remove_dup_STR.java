@@ -1,5 +1,6 @@
 import java.util.*;
 class RemoveDup{
+    //program for remove duplicates from a string
     public static void main(String args[])
     {  //apporach 1
         System.out.println("Enter a String :");
